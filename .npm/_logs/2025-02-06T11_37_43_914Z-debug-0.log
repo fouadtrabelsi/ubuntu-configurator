@@ -1,0 +1,22 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.20.6
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ftrabelsi/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm exec create-vue@latest frontend
+7 verbose argv "exec" "--" "create-vue@latest" "frontend"
+8 verbose logfile logs-max:10 dir:/home/ftrabelsi/.npm/_logs/2025-02-06T11_37_43_914Z-
+9 verbose logfile /home/ftrabelsi/.npm/_logs/2025-02-06T11_37_43_914Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/create-vue 167ms (cache updated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 verbose cwd /home/ftrabelsi
+17 verbose os Linux 6.8.0-52-generic
+18 verbose node v18.20.6
+19 verbose npm  v10.8.2
+20 verbose exit 1
+21 verbose code 1

@@ -1,0 +1,379 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.6
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/frontend/vue-project/.npmrc
+5 silly config load:file:/home/ftrabelsi/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/ftrabelsi/.npm/_logs/2025-02-06T11_39_49_758Z-
+10 verbose logfile /home/ftrabelsi/.npm/_logs/2025-02-06T11_39_49_758Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+16 silly audit   '@antfu/utils': [ '0.7.10' ],
+16 silly audit   '@babel/code-frame': [ '7.26.2' ],
+16 silly audit   '@babel/compat-data': [ '7.26.5' ],
+16 silly audit   '@babel/core': [ '7.26.7' ],
+16 silly audit   '@babel/generator': [ '7.26.5' ],
+16 silly audit   '@babel/helper-annotate-as-pure': [ '7.25.9' ],
+16 silly audit   '@babel/helper-compilation-targets': [ '7.26.5' ],
+16 silly audit   '@babel/helper-create-class-features-plugin': [ '7.25.9' ],
+16 silly audit   '@babel/helper-member-expression-to-functions': [ '7.25.9' ],
+16 silly audit   '@babel/helper-module-imports': [ '7.25.9' ],
+16 silly audit   '@babel/helper-module-transforms': [ '7.26.0' ],
+16 silly audit   '@babel/helper-optimise-call-expression': [ '7.25.9' ],
+16 silly audit   '@babel/helper-plugin-utils': [ '7.26.5' ],
+16 silly audit   '@babel/helper-replace-supers': [ '7.26.5' ],
+16 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.25.9' ],
+16 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+16 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+16 silly audit   '@babel/helper-validator-option': [ '7.25.9' ],
+16 silly audit   '@babel/helpers': [ '7.26.7' ],
+16 silly audit   '@babel/parser': [ '7.26.7' ],
+16 silly audit   '@babel/plugin-proposal-decorators': [ '7.25.9' ],
+16 silly audit   '@babel/plugin-syntax-decorators': [ '7.25.9' ],
+16 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.26.0' ],
+16 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+16 silly audit   '@babel/plugin-syntax-jsx': [ '7.25.9' ],
+16 silly audit   '@babel/plugin-syntax-typescript': [ '7.25.9' ],
+16 silly audit   '@babel/plugin-transform-typescript': [ '7.26.7' ],
+16 silly audit   '@babel/template': [ '7.25.9' ],
+16 silly audit   '@babel/traverse': [ '7.26.7' ],
+16 silly audit   '@babel/types': [ '7.26.7' ],
+16 silly audit   '@esbuild/aix-ppc64': [ '0.24.2' ],
+16 silly audit   '@esbuild/android-arm': [ '0.24.2' ],
+16 silly audit   '@esbuild/android-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/android-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/darwin-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/darwin-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/freebsd-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/freebsd-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-arm': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-ia32': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-loong64': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-mips64el': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-ppc64': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-riscv64': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-s390x': [ '0.24.2' ],
+16 silly audit   '@esbuild/linux-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/netbsd-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/netbsd-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/openbsd-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/openbsd-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/sunos-x64': [ '0.24.2' ],
+16 silly audit   '@esbuild/win32-arm64': [ '0.24.2' ],
+16 silly audit   '@esbuild/win32-ia32': [ '0.24.2' ],
+16 silly audit   '@esbuild/win32-x64': [ '0.24.2' ],
+16 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+16 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+16 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+16 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+16 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+16 silly audit   '@polka/url': [ '1.0.0-next.28' ],
+16 silly audit   '@rollup/pluginutils': [ '5.1.4' ],
+16 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-android-arm64': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-darwin-arm64': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-darwin-x64': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-freebsd-x64': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.34.4' ],
+16 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.34.4' ],
+16 silly audit   '@sec-ant/readable-stream': [ '0.4.1' ],
+16 silly audit   '@sindresorhus/merge-streams': [ '4.0.0' ],
+16 silly audit   '@types/estree': [ '1.0.6' ],
+16 silly audit   '@vitejs/plugin-vue': [ '5.2.1' ],
+16 silly audit   '@vue/babel-helper-vue-transform-on': [ '1.2.5' ],
+16 silly audit   '@vue/babel-plugin-jsx': [ '1.2.5' ],
+16 silly audit   '@vue/babel-plugin-resolve-type': [ '1.2.5' ],
+16 silly audit   '@vue/compiler-core': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-dom': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-sfc': [ '3.5.13' ],
+16 silly audit   '@vue/compiler-ssr': [ '3.5.13' ],
+16 silly audit   '@vue/devtools-core': [ '7.7.1' ],
+16 silly audit   nanoid: [ '5.0.9', '3.3.8' ],
+16 silly audit   '@vue/devtools-kit': [ '7.7.1' ],
+16 silly audit   '@vue/devtools-shared': [ '7.7.1' ],
+16 silly audit   '@vue/reactivity': [ '3.5.13' ],
+16 silly audit   '@vue/runtime-core': [ '3.5.13' ],
+16 silly audit   '@vue/runtime-dom': [ '3.5.13' ],
+16 silly audit   '@vue/server-renderer': [ '3.5.13' ],
+16 silly audit   '@vue/shared': [ '3.5.13' ],
+16 silly audit   asynckit: [ '0.4.0' ],
+16 silly audit   axios: [ '1.7.9' ],
+16 silly audit   birpc: [ '0.2.19' ],
+16 silly audit   browserslist: [ '4.24.4' ],
+16 silly audit   'bundle-name': [ '4.1.0' ],
+16 silly audit   'caniuse-lite': [ '1.0.30001697' ],
+16 silly audit   'combined-stream': [ '1.0.8' ],
+16 silly audit   'convert-source-map': [ '2.0.0' ],
+16 silly audit   'copy-anything': [ '3.0.5' ],
+16 silly audit   'cross-spawn': [ '7.0.6' ],
+16 silly audit   csstype: [ '3.1.3' ],
+16 silly audit   debug: [ '4.4.0' ],
+16 silly audit   'default-browser': [ '5.2.1' ],
+16 silly audit   'default-browser-id': [ '5.0.0' ],
+16 silly audit   'define-lazy-prop': [ '3.0.0' ],
+16 silly audit   'delayed-stream': [ '1.0.0' ],
+16 silly audit   'electron-to-chromium': [ '1.5.93' ],
+16 silly audit   entities: [ '4.5.0' ],
+16 silly audit   'error-stack-parser-es': [ '0.1.5' ],
+16 silly audit   esbuild: [ '0.24.2' ],
+16 silly audit   escalade: [ '3.2.0' ],
+16 silly audit   'estree-walker': [ '2.0.2' ],
+16 silly audit   execa: [ '9.5.2' ],
+16 silly audit   figures: [ '6.1.0' ],
+16 silly audit   'follow-redirects': [ '1.15.9' ],
+16 silly audit   'form-data': [ '4.0.1' ],
+16 silly audit   'fs-extra': [ '11.3.0' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   gensync: [ '1.0.0-beta.2' ],
+16 silly audit   'get-stream': [ '9.0.1' ],
+16 silly audit   globals: [ '11.12.0' ],
+16 silly audit   'graceful-fs': [ '4.2.11' ],
+16 silly audit   hookable: [ '5.5.3' ],
+16 silly audit   'html-tags': [ '3.3.1' ],
+16 silly audit   'human-signals': [ '8.0.0' ],
+16 silly audit   'is-docker': [ '3.0.0' ],
+16 silly audit   'is-inside-container': [ '1.0.0' ],
+16 silly audit   'is-plain-obj': [ '4.1.0' ],
+16 silly audit   'is-stream': [ '4.0.1' ],
+16 silly audit   'is-unicode-supported': [ '2.1.0' ],
+16 silly audit   'is-what': [ '4.1.16' ],
+16 silly audit   'is-wsl': [ '3.1.0' ],
+16 silly audit   isexe: [ '2.0.0' ],
+16 silly audit   'js-tokens': [ '4.0.0' ],
+16 silly audit   jsesc: [ '3.1.0' ],
+16 silly audit   json5: [ '2.2.3' ],
+16 silly audit   jsonfile: [ '6.1.0' ],
+16 silly audit   kolorist: [ '1.8.0' ],
+16 silly audit   'lru-cache': [ '5.1.1' ],
+16 silly audit   'magic-string': [ '0.30.17' ],
+16 silly audit   'mime-db': [ '1.52.0' ],
+16 silly audit   'mime-types': [ '2.1.35' ],
+16 silly audit   mitt: [ '3.0.1' ],
+16 silly audit   mrmime: [ '2.0.0' ],
+16 silly audit   ms: [ '2.1.3' ],
+16 silly audit   'node-releases': [ '2.0.19' ],
+16 silly audit   'npm-run-path': [ '6.0.0' ],
+16 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+16 silly audit   open: [ '10.1.0' ],
+16 silly audit   'parse-ms': [ '4.0.0' ],
+16 silly audit   pathe: [ '2.0.2' ],
+16 silly audit   'perfect-debounce': [ '1.0.0' ],
+16 silly audit   picocolors: [ '1.1.1' ],
+16 silly audit   picomatch: [ '4.0.2' ],
+16 silly audit   postcss: [ '8.5.1' ],
+16 silly audit   'pretty-ms': [ '9.2.0' ],
+16 silly audit   'proxy-from-env': [ '1.1.0' ],
+16 silly audit   rfdc: [ '1.4.1' ],
+16 silly audit   rollup: [ '4.34.4' ],
+16 silly audit   'run-applescript': [ '7.0.0' ],
+16 silly audit   semver: [ '6.3.1' ],
+16 silly audit   'shebang-command': [ '2.0.0' ],
+16 silly audit   'shebang-regex': [ '3.0.0' ],
+16 silly audit   'signal-exit': [ '4.1.0' ],
+16 silly audit   sirv: [ '3.0.0' ],
+16 silly audit   'source-map-js': [ '1.2.1' ],
+16 silly audit   speakingurl: [ '14.0.1' ],
+16 silly audit   'strip-final-newline': [ '4.0.0' ],
+16 silly audit   superjson: [ '2.2.2' ],
+16 silly audit   'svg-tags': [ '1.0.0' ],
+16 silly audit   totalist: [ '3.0.1' ],
+16 silly audit   'unicorn-magic': [ '0.3.0' ],
+16 silly audit   universalify: [ '2.0.1' ],
+16 silly audit   'update-browserslist-db': [ '1.1.2' ],
+16 silly audit   vite: [ '6.1.0' ],
+16 silly audit   'vite-hot-client': [ '0.2.4' ],
+16 silly audit   'vite-plugin-inspect': [ '0.8.9' ],
+16 silly audit   'vite-plugin-vue-devtools': [ '7.7.1' ],
+16 silly audit   'vite-plugin-vue-inspector': [ '5.3.1' ],
+16 silly audit   vue: [ '3.5.13' ],
+16 silly audit   which: [ '2.0.2' ],
+16 silly audit   yallist: [ '3.1.1' ],
+16 silly audit   yoctocolors: [ '2.1.1' ]
+16 silly audit }
+17 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/fsevents
+18 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/fsevents' ]
+19 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-win32-x64-msvc
+20 silly reify mark deleted [
+20 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-win32-x64-msvc'
+20 silly reify ]
+21 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-win32-ia32-msvc
+22 silly reify mark deleted [
+22 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-win32-ia32-msvc'
+22 silly reify ]
+23 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-win32-arm64-msvc
+24 silly reify mark deleted [
+24 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-win32-arm64-msvc'
+24 silly reify ]
+25 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-s390x-gnu
+26 silly reify mark deleted [
+26 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-s390x-gnu'
+26 silly reify ]
+27 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-riscv64-gnu
+28 silly reify mark deleted [
+28 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-riscv64-gnu'
+28 silly reify ]
+29 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+30 silly reify mark deleted [
+30 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+30 silly reify ]
+31 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-loongarch64-gnu
+32 silly reify mark deleted [
+32 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-loongarch64-gnu'
+32 silly reify ]
+33 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm64-musl
+34 silly reify mark deleted [
+34 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm64-musl'
+34 silly reify ]
+35 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm64-gnu
+36 silly reify mark deleted [
+36 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm64-gnu'
+36 silly reify ]
+37 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm-musleabihf
+38 silly reify mark deleted [
+38 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm-musleabihf'
+38 silly reify ]
+39 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm-gnueabihf
+40 silly reify mark deleted [
+40 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+40 silly reify ]
+41 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-freebsd-x64
+42 silly reify mark deleted [
+42 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-freebsd-x64'
+42 silly reify ]
+43 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-freebsd-arm64
+44 silly reify mark deleted [
+44 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-freebsd-arm64'
+44 silly reify ]
+45 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-darwin-x64
+46 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@rollup/rollup-darwin-x64' ]
+47 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-darwin-arm64
+48 silly reify mark deleted [
+48 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-darwin-arm64'
+48 silly reify ]
+49 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-android-arm64
+50 silly reify mark deleted [
+50 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-android-arm64'
+50 silly reify ]
+51 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@rollup/rollup-android-arm-eabi
+52 silly reify mark deleted [
+52 silly reify   '/home/frontend/vue-project/node_modules/@rollup/rollup-android-arm-eabi'
+52 silly reify ]
+53 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/win32-x64
+54 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/win32-x64' ]
+55 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/win32-ia32
+56 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/win32-ia32' ]
+57 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/win32-arm64
+58 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/win32-arm64' ]
+59 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/sunos-x64
+60 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/sunos-x64' ]
+61 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/openbsd-x64
+62 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/openbsd-x64' ]
+63 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/openbsd-arm64
+64 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/openbsd-arm64' ]
+65 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/netbsd-x64
+66 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/netbsd-x64' ]
+67 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/netbsd-arm64
+68 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/netbsd-arm64' ]
+69 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-s390x
+70 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-s390x' ]
+71 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-riscv64
+72 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-riscv64' ]
+73 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-ppc64
+74 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-ppc64' ]
+75 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-mips64el
+76 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-mips64el' ]
+77 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-loong64
+78 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-loong64' ]
+79 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-ia32
+80 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-ia32' ]
+81 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-arm64
+82 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-arm64' ]
+83 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/linux-arm
+84 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/linux-arm' ]
+85 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/freebsd-x64
+86 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/freebsd-x64' ]
+87 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/freebsd-arm64
+88 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/freebsd-arm64' ]
+89 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/darwin-x64
+90 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/darwin-x64' ]
+91 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/darwin-arm64
+92 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/darwin-arm64' ]
+93 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/android-x64
+94 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/android-x64' ]
+95 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/android-arm64
+96 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/android-arm64' ]
+97 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/android-arm
+98 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/android-arm' ]
+99 verbose reify failed optional dependency /home/frontend/vue-project/node_modules/@esbuild/aix-ppc64
+100 silly reify mark deleted [ '/home/frontend/vue-project/node_modules/@esbuild/aix-ppc64' ]
+101 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 400ms
+102 silly audit report {}
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 silly ADD
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 verbose cwd /home/frontend/vue-project
+146 verbose os Linux 6.8.0-52-generic
+147 verbose node v18.20.6
+148 verbose npm  v10.8.2
+149 verbose exit 0
+150 info ok
